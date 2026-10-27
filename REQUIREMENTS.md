@@ -45,7 +45,7 @@ Working prototype, reproducible source and setup instructions, five-minute norma
 - Python 3.11+, pandas, numpy, pydantic, LangChain current tool-calling API; LangGraph exclusively for approval interrupts; Streamlit seven-tab UI.
 - Seed-42 CSV generator; assertions; exact two-event whitelist; separate answer key.
 - Unified loader, quality flags, cleaned trailing-28-day/DOW forecast, deterministic uncertainty, imbalances, greedy feasible economic transfers, replenishment suggestions, impact and atomic pipeline reruns.
-- Configurable OpenAI/Anthropic; all numbers and UI work offline; chat clearly disabled without a key.
+- Configurable Groq/OpenAI/Anthropic; all numbers and UI work offline; chat clearly disabled without a key.
 - Approval CSV with timestamp, proposal identity and pipeline snapshot; record corrections trigger recomputation.
 - Pytest coverage, last-30-day holdout evaluation, honest MAPE/WAPE versus baseline and planted-case checks.
 - README, DEMO_SCRIPT, SUPPORT_NOTE, requirements.txt, .env.example and generated eval_report.md.

@@ -15,7 +15,7 @@ Generated with `python make_data.py`, numpy seed 42. All records are synthetic, 
 | events.csv | Exactly two dated FICTIONAL scenarios; pipe-separated SKU whitelist |
 | answer_key.csv | Versioned planted-case checklist and latent regular daily demand, for evaluation ONLY |
 
-Source tables carry `row_id`, `timestamp`, `source_system`. Row IDs remain stable when sales rows are omitted. Missing grid dates are synthetic imputation placeholders, never observations. The engine never loads `answer_key.csv`.
+Operational source tables carry `row_id`, `timestamp`, `source_system`. The evaluation-only `answer_key.csv` carries stable `row_id` and version fields but is never loaded by the planning engine. Row IDs remain stable when sales rows are omitted. Missing grid dates are synthetic imputation placeholders, never observations.
 
 Planted cases are listed individually in the answer key: main charger imbalance, two stockout intervals, 108 absent sales rows, one bulk order (+180), five old-batch positions, two inbound-too-late shortages, low-margin SKU05 with uneconomic routes, one stale manual record, and two fictional events. Latent demand excludes the non-recurring bulk order. The main demo's 200/350/150 demand values are generating rates, not guaranteed fitted forecasts.
 

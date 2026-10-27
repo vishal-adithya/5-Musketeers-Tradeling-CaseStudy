@@ -26,6 +26,7 @@ def session(data, result):
 
 
 def test_no_api_key(monkeypatch, session):
+    monkeypatch.delenv('GROQ_API_KEY', raising=False)
     monkeypatch.delenv('OPENAI_API_KEY', raising=False)
     monkeypatch.delenv('ANTHROPIC_API_KEY', raising=False)
     monkeypatch.delenv('LLM_PROVIDER', raising=False)
@@ -33,6 +34,16 @@ def test_no_api_key(monkeypatch, session):
     assistant = PlannerAssistant(session)
     assert assistant.agent is None
     assert 'disabled' in assistant.ask('Show stock')['text']
+
+
+def test_groq_provider_config(monkeypatch):
+    monkeypatch.setenv('LLM_PROVIDER', 'groq')
+    monkeypatch.setenv('GROQ_API_KEY', 'test-key')
+    monkeypatch.setenv('GROQ_MODEL', 'test-model')
+    monkeypatch.setattr('agent.assistant.load_dotenv', lambda: None)
+    config, reason = provider_config()
+    assert reason == ''
+    assert config == {'provider': 'groq', 'model': 'test-model'}
 
 
 def test_agent_refuses_unlisted_sku(session):

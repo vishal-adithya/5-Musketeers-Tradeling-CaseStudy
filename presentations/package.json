@@ -1,0 +1,11 @@
+{
+  "name": "gulftrade-investor-presentation",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build_pitch.cjs"
+  },
+  "dependencies": {
+    "pptxgenjs": "4.0.1"
+  }
+}

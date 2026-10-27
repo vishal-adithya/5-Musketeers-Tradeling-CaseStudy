@@ -1,6 +1,6 @@
 # GulfTrade evaluation report
 
-Generated UTC: 2026-10-27T10:59:20.957093+00:00. Seed 42; answer-key version 1.0. No data or parameters tuned to this holdout.
+Generated UTC: 2026-10-27T11:17:50.066467+00:00. Seed 42; answer-key version 1.0. No data or parameters tuned to this holdout.
 
 ## Fixed 60/30-day backtest
 Training: 2026-07-29 through 2026-09-26 (60 days). Holdout: 2026-09-27 through 2026-10-26 (30 days), 60 SKU-location series. Model uses only earlier sales, with trailing 28-day cleaning and weekday factors. No events or latent truth enter the forecast. Current stock metadata is not used to fit demand; this is a forecast backtest, not a historical inventory replay.

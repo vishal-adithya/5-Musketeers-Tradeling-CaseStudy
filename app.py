@@ -9,14 +9,71 @@ from agent.assistant import PlannerAssistant
 from agent.approval import ApprovalWorkflow
 from agent.tools import json_safe
 
-st.set_page_config(page_title='GulfTrade | Inventory planner', page_icon=None, layout='wide')
+st.set_page_config(page_title='GulfTrade | Inventory planner', page_icon=None, layout='wide', initial_sidebar_state='expanded')
 st.markdown('''<style>
-.stApp {background:#f5f7fb;color:#14233b}
-[data-testid="stSidebar"] {background:#eaf0f8}
-h1,h2,h3 {letter-spacing:-.025em}
-[data-testid="stMetric"] {background:white;border:1px solid #dfe6ef;border-radius:12px;padding:16px}
-[data-testid="stTabs"] button {font-weight:600}
-.block-container {padding-top:2rem;max-width:1500px}
+:root {
+  --ink: #14213d;
+  --muted: #667085;
+  --navy: #102a56;
+  --blue: #2167dc;
+  --teal: #0f9d8a;
+  --line: #dce5f0;
+  --paper: #ffffff;
+  --canvas: #f4f7fb;
+}
+.stApp {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 94% -8%, rgba(40, 112, 226, .16), transparent 31rem),
+    radial-gradient(circle at -8% 38%, rgba(15, 157, 138, .09), transparent 28rem),
+    var(--canvas);
+}
+.block-container {max-width: 1520px; padding: 2.2rem 2.4rem 3.5rem;}
+[data-testid="stSidebar"] {
+  background: linear-gradient(180deg, #0d2348 0%, #112f60 55%, #0f735f 145%);
+  border-right: 1px solid rgba(255,255,255,.09);
+}
+[data-testid="stSidebar"] * {color: #f7fbff;}
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"] p {color: rgba(242,247,255,.66);}
+[data-testid="stSidebar"] [data-baseweb="select"] > div,
+[data-testid="stSidebar"] [data-baseweb="input"] > div {
+  background: rgba(255,255,255,.10); border-color: rgba(255,255,255,.18);
+}
+[data-testid="stSidebar"] [data-testid="stMetric"] {
+  background: rgba(255,255,255,.10); border-color: rgba(255,255,255,.12); box-shadow: none;
+}
+.gulftrade-brand {display:flex; align-items:center; gap:12px; margin: .25rem 0 1.4rem;}
+.gulftrade-mark {display:grid; place-items:center; width:38px; height:38px; border-radius:12px; background:linear-gradient(135deg,#42b9df,#58d5b5); color:#082345 !important; font-weight:800; font-size:13px; letter-spacing:-.04em;}
+.gulftrade-name {font-size:1.08rem; font-weight:750; letter-spacing:-.02em; line-height:1.05;}
+.gulftrade-role {font-size:.73rem; color:rgba(242,247,255,.66) !important; margin-top:3px;}
+h1,h2,h3 {letter-spacing:-.035em; color:var(--ink);}
+h2 {font-size:1.45rem !important; margin-top: .6rem !important;}
+[data-testid="stMetric"] {position:relative; overflow:hidden; min-height:126px; padding:1.1rem 1.15rem; background:rgba(255,255,255,.94); border:1px solid var(--line); border-radius:18px; box-shadow:0 12px 30px rgba(20,33,61,.06);}
+[data-testid="stMetric"]:before {content:""; position:absolute; inset:0 auto 0 0; width:4px; background:linear-gradient(180deg,var(--blue),var(--teal));}
+[data-testid="stMetricLabel"] p {font-size:.78rem; font-weight:650; letter-spacing:.025em; text-transform:uppercase; color:var(--muted);}
+[data-testid="stMetricValue"] {font-size:1.55rem; font-weight:740; color:var(--ink);}
+[data-testid="stTabs"] {margin-top:1.55rem;}
+[data-testid="stTabs"] [role="tablist"] {gap:.4rem; border-bottom:1px solid var(--line);}
+[data-testid="stTabs"] [role="tab"] {height:43px; padding:0 1rem; border-radius:10px 10px 0 0; color:var(--muted); font-weight:650;}
+[data-testid="stTabs"] [aria-selected="true"] {color:var(--blue); background:rgba(33,103,220,.07);}
+[data-testid="stTabs"] [data-testid="stMarkdownContainer"] p {font-size:.9rem;}
+.stButton > button, .stDownloadButton > button {border-radius:10px; font-weight:650; border-color:#cbd8ea;}
+.stButton > button[kind="primary"] {border:0; background:linear-gradient(135deg,#1e64d8,#168e9b); box-shadow:0 9px 18px rgba(30,100,216,.22);}
+[data-testid="stDataFrame"] {border:1px solid var(--line); border-radius:14px; overflow:hidden; background:white;}
+[data-testid="stExpander"] {border:1px solid var(--line); border-radius:13px; background:rgba(255,255,255,.72);}
+[data-testid="stAlert"] {border-radius:12px;}
+.hero {position:relative; overflow:hidden; padding:2.05rem 2.15rem; border:1px solid rgba(255,255,255,.45); border-radius:24px; color:#fff; background:linear-gradient(120deg,#0c2450 0%,#173d7c 58%,#147f79 145%); box-shadow:0 22px 50px rgba(16,42,86,.20);}
+.hero:after {content:""; position:absolute; right:-72px; top:-90px; width:270px; height:270px; border:38px solid rgba(116,220,205,.15); border-radius:50%;}
+.hero-content {position:relative; z-index:1; max-width:760px;}
+.hero-eyebrow {margin-bottom:.65rem; color:#9bdbf4; font-size:.73rem; font-weight:750; letter-spacing:.13em;}
+.hero h1 {margin:0; color:#fff; font-size:2.38rem; line-height:1.07;}
+.hero-copy {max-width:650px; margin:.75rem 0 0; color:rgba(242,248,255,.82); font-size:1.03rem; line-height:1.55;}
+.hero-meta {display:flex; flex-wrap:wrap; gap:.55rem; margin-top:1.2rem;}
+.hero-pill {padding:.36rem .65rem; border:1px solid rgba(255,255,255,.2); border-radius:999px; background:rgba(255,255,255,.10); color:#eaf7ff; font-size:.76rem; font-weight:600;}
+.trust-strip {display:flex; flex-wrap:wrap; align-items:center; gap:.45rem 1.25rem; padding: .9rem 1.1rem; margin-top:1rem; border:1px solid var(--line); border-radius:13px; background:rgba(255,255,255,.78); color:#536179; font-size:.84rem;}
+.trust-strip strong {color:#1c3f78;}
+.trust-dot {width:7px; height:7px; border-radius:50%; background:#1cae8d; display:inline-block; margin-right:.25rem;}
+@media (max-width: 760px) {.block-container {padding:1rem 1rem 2.5rem;}.hero {padding:1.55rem 1.4rem;}.hero h1 {font-size:1.85rem;}}
 </style>''', unsafe_allow_html=True)
 
 
@@ -58,7 +115,10 @@ if st.session_state.pop('sync_scenario', False):
 if 'flash' in st.session_state:
     st.success(st.session_state.pop('flash'))
 
-st.sidebar.title('GulfTrade Supplies')
+st.sidebar.markdown('''<div class="gulftrade-brand">
+  <div class="gulftrade-mark">GT</div>
+  <div><div class="gulftrade-name">GulfTrade Supplies</div><div class="gulftrade-role">Inventory intelligence workspace</div></div>
+</div>''', unsafe_allow_html=True)
 st.sidebar.caption('Sara’s planning workspace · fictional data')
 chosen = st.sidebar.selectbox('Disruption scenario', ['None', 'component_shortage', 'shipping_delay'], key='scenario_choice')
 if chosen != session.scenario:
@@ -94,15 +154,28 @@ st.sidebar.caption('Planning cutoff: ' + str(result.data.as_of.date()))
 st.sidebar.caption('Snapshot: ' + result.snapshot_id)
 st.sidebar.info('Decision support only. No orders or stock movements are executed.')
 
-st.caption('INVENTORY INTELLIGENCE / 30-DAY WORKSPACE')
-st.title('Right stock. Right place. Reviewed by you.')
-st.write('Review uncertain demand, spot misplaced stock and compare feasible actions before making a decision.')
+st.markdown('''<section class="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">INVENTORY INTELLIGENCE / 30-DAY WORKSPACE</div>
+    <h1>Right stock. Right place.<br>Reviewed by you.</h1>
+    <p class="hero-copy">Turn supply, demand and cost signals into clear, commercially responsible decisions before any stock moves.</p>
+    <div class="hero-meta">
+      <span class="hero-pill">Fictional UAE planning model</span>
+      <span class="hero-pill">Human approval required</span>
+      <span class="hero-pill">AED decision support</span>
+    </div>
+  </div>
+</section>''', unsafe_allow_html=True)
 a, b, c, d = st.columns(4)
 a.metric('Available units', f'{result.stock.available.sum():,.0f}')
 b.metric('Positions at shortage risk', int(result.imbalances.shortage_gap.gt(0).sum()))
 c.metric('Feasible transfer proposals', len(result.recommendations))
 d.metric('Estimated proposal net benefit', f'AED {result.impact.iloc[2].net_benefit_aed:,.2f}')
-st.caption('All numbers are deterministic estimates from supplied data. Benefits assume all proposals; approval does not change inventory.')
+st.markdown('''<div class="trust-strip">
+  <span><span class="trust-dot"></span><strong>Live planning snapshot</strong></span>
+  <span>Forecasts are shown as P10 / P50 / P90 ranges</span>
+  <span>Recommendations remain proposals until human review</span>
+</div>''', unsafe_allow_html=True)
 
 tabs = st.tabs(['Stock overview', 'Forecast', 'Imbalances', 'Recommendations', 'Impact', 'Edit records', 'Assistant'])
 with tabs[0]:
