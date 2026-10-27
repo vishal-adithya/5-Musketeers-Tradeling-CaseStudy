@@ -1,4 +1,0 @@
-signal_id,signal_type,announcement_date,effective_start,effective_end,target_scope_type,target_scope_val,lead_time_impact_days,supply_reduction_pct,verified_status,description
-SIG-001,SEMICONDUCTOR_ALLOCATION_SHORTAGE,2026-10-20,2026-10-28,2026-12-31,HAS_SEMICONDUCTOR,TRUE,21,0.3,CONFIRMED,Confirmed chipset allocation shortage: add 21 days only to semiconductor-dependent SKUs.
-SIG-002,RED_SEA_ROUTE_CONGESTION,2026-10-18,2026-10-25,2026-11-30,SHIPPING_ROUTE,OCEAN_FREIGHT,14,0.15,CONFIRMED,Confirmed ocean freight congestion affecting sea-routed purchase orders.
-SIG-003,PORT_INSPECTION_RISK,2026-10-22,2026-11-01,2026-11-20,SHIPPING_ROUTE,JEBEL_ALI,14,0.05,UNVERIFIED_ASSUMPTION,Unverified customs inspection risk retained for scenario planning only.

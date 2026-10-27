@@ -1,0 +1,121 @@
+row_id,sku,location,batch_id,units,age_days,timestamp,source_system
+stock_age-00001,SKU01,Dubai,SKU01-Dubai-old,160,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00002,SKU01,Dubai,SKU01-Dubai-fresh,340,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00003,SKU01,Abu Dhabi,SKU01-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00004,SKU01,Abu Dhabi,SKU01-Abu Dhabi-fresh,100,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00005,SKU01,Sharjah,SKU01-Sharjah-old,160,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00006,SKU01,Sharjah,SKU01-Sharjah-fresh,140,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00007,SKU02,Dubai,SKU02-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00008,SKU02,Dubai,SKU02-Dubai-fresh,89,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00009,SKU02,Abu Dhabi,SKU02-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00010,SKU02,Abu Dhabi,SKU02-Abu Dhabi-fresh,70,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00011,SKU02,Sharjah,SKU02-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00012,SKU02,Sharjah,SKU02-Sharjah-fresh,94,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00013,SKU03,Dubai,SKU03-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00014,SKU03,Dubai,SKU03-Dubai-fresh,85,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00015,SKU03,Abu Dhabi,SKU03-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00016,SKU03,Abu Dhabi,SKU03-Abu Dhabi-fresh,50,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00017,SKU03,Sharjah,SKU03-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00018,SKU03,Sharjah,SKU03-Sharjah-fresh,101,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00019,SKU04,Dubai,SKU04-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00020,SKU04,Dubai,SKU04-Dubai-fresh,89,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00021,SKU04,Abu Dhabi,SKU04-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00022,SKU04,Abu Dhabi,SKU04-Abu Dhabi-fresh,90,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00023,SKU04,Sharjah,SKU04-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00024,SKU04,Sharjah,SKU04-Sharjah-fresh,52,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00025,SKU05,Dubai,SKU05-Dubai-old,40,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00026,SKU05,Dubai,SKU05-Dubai-fresh,180,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00027,SKU05,Abu Dhabi,SKU05-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00028,SKU05,Abu Dhabi,SKU05-Abu Dhabi-fresh,15,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00029,SKU05,Sharjah,SKU05-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00030,SKU05,Sharjah,SKU05-Sharjah-fresh,0,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00031,SKU06,Dubai,SKU06-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00032,SKU06,Dubai,SKU06-Dubai-fresh,70,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00033,SKU06,Abu Dhabi,SKU06-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00034,SKU06,Abu Dhabi,SKU06-Abu Dhabi-fresh,66,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00035,SKU06,Sharjah,SKU06-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00036,SKU06,Sharjah,SKU06-Sharjah-fresh,98,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00037,SKU07,Dubai,SKU07-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00038,SKU07,Dubai,SKU07-Dubai-fresh,82,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00039,SKU07,Abu Dhabi,SKU07-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00040,SKU07,Abu Dhabi,SKU07-Abu Dhabi-fresh,92,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00041,SKU07,Sharjah,SKU07-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00042,SKU07,Sharjah,SKU07-Sharjah-fresh,70,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00043,SKU08,Dubai,SKU08-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00044,SKU08,Dubai,SKU08-Dubai-fresh,57,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00045,SKU08,Abu Dhabi,SKU08-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00046,SKU08,Abu Dhabi,SKU08-Abu Dhabi-fresh,76,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00047,SKU08,Sharjah,SKU08-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00048,SKU08,Sharjah,SKU08-Sharjah-fresh,48,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00049,SKU09,Dubai,SKU09-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00050,SKU09,Dubai,SKU09-Dubai-fresh,92,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00051,SKU09,Abu Dhabi,SKU09-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00052,SKU09,Abu Dhabi,SKU09-Abu Dhabi-fresh,12,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00053,SKU09,Sharjah,SKU09-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00054,SKU09,Sharjah,SKU09-Sharjah-fresh,81,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00055,SKU10,Dubai,SKU10-Dubai-old,40,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00056,SKU10,Dubai,SKU10-Dubai-fresh,48,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00057,SKU10,Abu Dhabi,SKU10-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00058,SKU10,Abu Dhabi,SKU10-Abu Dhabi-fresh,65,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00059,SKU10,Sharjah,SKU10-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00060,SKU10,Sharjah,SKU10-Sharjah-fresh,101,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00061,SKU11,Dubai,SKU11-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00062,SKU11,Dubai,SKU11-Dubai-fresh,96,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00063,SKU11,Abu Dhabi,SKU11-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00064,SKU11,Abu Dhabi,SKU11-Abu Dhabi-fresh,89,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00065,SKU11,Sharjah,SKU11-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00066,SKU11,Sharjah,SKU11-Sharjah-fresh,55,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00067,SKU12,Dubai,SKU12-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00068,SKU12,Dubai,SKU12-Dubai-fresh,70,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00069,SKU12,Abu Dhabi,SKU12-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00070,SKU12,Abu Dhabi,SKU12-Abu Dhabi-fresh,46,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00071,SKU12,Sharjah,SKU12-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00072,SKU12,Sharjah,SKU12-Sharjah-fresh,52,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00073,SKU13,Dubai,SKU13-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00074,SKU13,Dubai,SKU13-Dubai-fresh,83,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00075,SKU13,Abu Dhabi,SKU13-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00076,SKU13,Abu Dhabi,SKU13-Abu Dhabi-fresh,87,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00077,SKU13,Sharjah,SKU13-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00078,SKU13,Sharjah,SKU13-Sharjah-fresh,10,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00079,SKU14,Dubai,SKU14-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00080,SKU14,Dubai,SKU14-Dubai-fresh,100,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00081,SKU14,Abu Dhabi,SKU14-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00082,SKU14,Abu Dhabi,SKU14-Abu Dhabi-fresh,62,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00083,SKU14,Sharjah,SKU14-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00084,SKU14,Sharjah,SKU14-Sharjah-fresh,65,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00085,SKU15,Dubai,SKU15-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00086,SKU15,Dubai,SKU15-Dubai-fresh,71,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00087,SKU15,Abu Dhabi,SKU15-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00088,SKU15,Abu Dhabi,SKU15-Abu Dhabi-fresh,54,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00089,SKU15,Sharjah,SKU15-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00090,SKU15,Sharjah,SKU15-Sharjah-fresh,51,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00091,SKU16,Dubai,SKU16-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00092,SKU16,Dubai,SKU16-Dubai-fresh,71,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00093,SKU16,Abu Dhabi,SKU16-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00094,SKU16,Abu Dhabi,SKU16-Abu Dhabi-fresh,56,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00095,SKU16,Sharjah,SKU16-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00096,SKU16,Sharjah,SKU16-Sharjah-fresh,82,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00097,SKU17,Dubai,SKU17-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00098,SKU17,Dubai,SKU17-Dubai-fresh,69,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00099,SKU17,Abu Dhabi,SKU17-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00100,SKU17,Abu Dhabi,SKU17-Abu Dhabi-fresh,92,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00101,SKU17,Sharjah,SKU17-Sharjah-old,40,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00102,SKU17,Sharjah,SKU17-Sharjah-fresh,44,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00103,SKU18,Dubai,SKU18-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00104,SKU18,Dubai,SKU18-Dubai-fresh,61,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00105,SKU18,Abu Dhabi,SKU18-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00106,SKU18,Abu Dhabi,SKU18-Abu Dhabi-fresh,92,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00107,SKU18,Sharjah,SKU18-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00108,SKU18,Sharjah,SKU18-Sharjah-fresh,90,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00109,SKU19,Dubai,SKU19-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00110,SKU19,Dubai,SKU19-Dubai-fresh,66,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00111,SKU19,Abu Dhabi,SKU19-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00112,SKU19,Abu Dhabi,SKU19-Abu Dhabi-fresh,60,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00113,SKU19,Sharjah,SKU19-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00114,SKU19,Sharjah,SKU19-Sharjah-fresh,83,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00115,SKU20,Dubai,SKU20-Dubai-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00116,SKU20,Dubai,SKU20-Dubai-fresh,51,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00117,SKU20,Abu Dhabi,SKU20-Abu Dhabi-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00118,SKU20,Abu Dhabi,SKU20-Abu Dhabi-fresh,55,30,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00119,SKU20,Sharjah,SKU20-Sharjah-old,0,145,2026-10-26T18:00:00Z,synthetic_seed_42
+stock_age-00120,SKU20,Sharjah,SKU20-Sharjah-fresh,44,30,2026-10-26T18:00:00Z,synthetic_seed_42

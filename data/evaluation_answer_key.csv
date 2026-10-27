@@ -1,5 +1,0 @@
-test_case_id,sku_id,scenario_name,expected_action,source,destination,expected_qty,rationale,guardrail
-TC-001,SKU-001,Dubai surplus to Abu Dhabi shortage,RECOMMEND_TRANSFER,DXB,AUH,165,DXB has 500 available against about 200 forecast units; AUH has 100 available against about 350 forecast units.,Keep at least DXB 30-day forecast coverage after the transfer; transfer range 150-180 units.
-TC-002,SKU-002,Low-value cable micro-shortage,REJECT_TRANSFER,DXB,AUH,0,"AUH is short 15 units, but a dedicated dispatch has poor economics for a low-value cable after dispatch and freight costs.",Do not dispatch a dedicated inter-emirate transfer for a 15-unit low-margin shortage.
-TC-003,SKU-005,Sharjah ageing deadstock,REDUCE_SAFETY_STOCK,SHJ,SHJ,100,Sharjah holds 140 units aged above 90 days while local demand is near zero.,Retain enough stock for the 30-day forecast and open reservations before reducing safety stock.
-TC-004,SKU-006,Cable exemption from semiconductor shortage,NO_LEAD_TIME_CHANGE,,,0,SKU-006 is a plain cable with has_semiconductor = FALSE and must not inherit SIG-001's 21-day delay.,Apply SIG-001 only when sku_master.has_semiconductor = TRUE.

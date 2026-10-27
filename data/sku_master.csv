@@ -1,21 +1,21 @@
-sku_id,sku_name,category,unit_cost,wholesale_price,unit_weight_kg,volume_cbm,min_order_qty,default_supplier_id,has_semiconductor
-SKU-001,65W GaN USB-C Charger,Chargers,27.0,43.2,0.22,0.0014,100,SUP-01,1
-SKU-002,USB-A to USB-C Cable 1m,Cables,8.5,16.0,0.1,0.0003,200,SUP-02,0
-SKU-003,30W USB-C Wall Charger,Chargers,16.0,24.0,0.16,0.001,150,SUP-01,1
-SKU-004,100W Desktop Charger,Chargers,52.0,78.0,0.48,0.003,80,SUP-03,1
-SKU-005,Compact Wireless Mouse,Peripherals,12.0,18.0,0.09,0.0008,100,SUP-02,0
-SKU-006,USB-C to USB-C Cable 2m,Cables,10.0,15.0,0.14,0.0005,200,SUP-02,0
-SKU-007,HDMI 2.1 Cable 2m,Cables,14.0,21.0,0.18,0.0007,150,SUP-02,0
-SKU-008,Cat6 Network Cable 3m,Cables,9.0,13.95,0.2,0.0009,200,SUP-02,0
-SKU-009,USB-C 8-in-1 Dock,Docks,68.0,102.0,0.38,0.0035,80,SUP-03,1
-SKU-010,Thunderbolt 4 Dock,Docks,145.0,217.5,0.72,0.005,50,SUP-03,1
-SKU-011,Dual HDMI USB-C Dock,Docks,82.0,123.0,0.44,0.0038,80,SUP-03,1
-SKU-012,USB-C Travel Dock,Docks,45.0,67.5,0.25,0.0022,100,SUP-01,1
-SKU-013,Bluetooth Earbuds,Audio,38.0,57.0,0.08,0.0006,120,SUP-01,1
-SKU-014,USB Conference Speaker,Audio,74.0,111.0,0.62,0.0042,60,SUP-03,1
-SKU-015,Wired USB Headset,Audio,24.0,36.0,0.19,0.0016,120,SUP-01,1
-SKU-016,Noise-Cancelling Headset,Audio,118.0,177.0,0.32,0.0026,50,SUP-03,1
-SKU-017,Wireless Keyboard,Peripherals,32.0,48.0,0.58,0.004,80,SUP-02,0
-SKU-018,Laptop Stand Aluminium,Peripherals,28.0,42.0,0.84,0.0065,100,SUP-02,0
-SKU-019,USB Numeric Keypad,Peripherals,18.0,27.0,0.21,0.0017,120,SUP-01,0
-SKU-020,45W Multiport Charger,Chargers,22.0,33.0,0.18,0.0012,120,SUP-01,1
+row_id,sku,name,product_type,semiconductor_dependent,unit_margin_aed,unit_value_aed,timestamp,source_system
+sku_master-00001,SKU01,USB-C chargers model 1,USB-C chargers,True,18.0,40,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00002,SKU02,USB-C chargers model 2,USB-C chargers,True,18.0,40,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00003,SKU03,USB-C chargers model 3,USB-C chargers,True,18.0,40,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00004,SKU04,USB-C chargers model 4,USB-C chargers,True,18.0,40,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00005,SKU05,phone cables model 1,phone cables,False,0.1,8,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00006,SKU06,phone cables model 2,phone cables,False,5.0,8,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00007,SKU07,phone cables model 3,phone cables,False,5.0,8,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00008,SKU08,phone cables model 4,phone cables,False,5.0,8,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00009,SKU09,wireless mice model 1,wireless mice,True,12.0,25,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00010,SKU10,wireless mice model 2,wireless mice,True,12.0,25,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00011,SKU11,wireless mice model 3,wireless mice,True,12.0,25,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00012,SKU12,wireless mice model 4,wireless mice,True,12.0,25,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00013,SKU13,keyboards model 1,keyboards,True,20.0,50,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00014,SKU14,keyboards model 2,keyboards,True,20.0,50,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00015,SKU15,keyboards model 3,keyboards,True,20.0,50,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00016,SKU16,keyboards model 4,keyboards,True,20.0,50,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00017,SKU17,power banks model 1,power banks,True,16.0,35,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00018,SKU18,power banks model 2,power banks,True,16.0,35,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00019,SKU19,power banks model 3,power banks,True,16.0,35,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00020,SKU20,power banks model 4,power banks,True,16.0,35,2026-10-26T18:00:00Z,synthetic_seed_42
