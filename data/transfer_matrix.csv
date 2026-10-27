@@ -1,0 +1,7 @@
+origin_warehouse,destination_warehouse,transit_lead_time_days,fixed_dispatch_cost_aed,cost_per_unit_aed,cost_per_kg_aed,transfer_capacity_units
+DXB,AUH,1.0,40.0,1.8,0.8,400
+AUH,DXB,1.0,40.0,1.8,0.8,400
+DXB,SHJ,0.5,28.0,1.2,0.6,450
+SHJ,DXB,0.5,28.0,1.2,0.6,450
+AUH,SHJ,1.5,48.0,2.0,1.0,250
+SHJ,AUH,1.5,48.0,2.0,1.0,250

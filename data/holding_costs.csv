@@ -1,0 +1,16 @@
+warehouse_id,category,storage_cost_per_cbm_monthly_aed,capital_cost_rate_annual,ageing_penalty_multiplier_gt_90d
+DXB,Chargers,46.0,0.12,1.5
+DXB,Cables,48.0,0.13,1.7
+DXB,Docks,50.0,0.14,1.9
+DXB,Audio,52.0,0.15,2.1
+DXB,Peripherals,54.0,0.16,2.3
+AUH,Chargers,51.0,0.13,1.9
+AUH,Cables,53.0,0.14,2.1
+AUH,Docks,55.0,0.15,2.3
+AUH,Audio,57.0,0.16,2.5
+AUH,Peripherals,59.0,0.12,1.5
+SHJ,Chargers,56.0,0.14,2.3
+SHJ,Cables,58.0,0.15,2.5
+SHJ,Docks,60.0,0.16,1.5
+SHJ,Audio,62.0,0.12,1.7
+SHJ,Peripherals,64.0,0.13,1.9
