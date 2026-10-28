@@ -1,3 +1,0 @@
-row_id,scenario,label,affected_skus,shipping_route,demand_multiplier,delay_days,assumption,timestamp,source_system
-events-00001,component_shortage,FICTIONAL: component shortage,SKU01|SKU02|SKU09|SKU13|SKU17,,1.0,18,Assumption: listed component-dependent inbound orders delayed 18 days; no demand uplift.,2026-10-26T18:00:00Z,fictional_scenario
-events-00002,shipping_delay,FICTIONAL: shipping route delay,SKU01|SKU09,Jebel Ali-Abu Dhabi,1.0,12,Assumption: only listed SKUs on Jebel Ali-Abu Dhabi inbound route delayed 12 days.,2026-10-26T18:00:00Z,fictional_scenario
