@@ -6,8 +6,6 @@ from agent.approval import ApprovalWorkflow
 @pytest.fixture
 def app(monkeypatch, tmp_path):
     monkeypatch.delenv('GROQ_API_KEY', raising=False)
-    monkeypatch.delenv('OPENAI_API_KEY', raising=False)
-    monkeypatch.delenv('ANTHROPIC_API_KEY', raising=False)
     monkeypatch.setattr('agent.assistant.load_dotenv', lambda: None)
     at = AppTest.from_file('app.py', default_timeout=90).run()
     at.session_state['approvals'] = ApprovalWorkflow(tmp_path / 'approvals_log.csv')

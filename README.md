@@ -18,7 +18,7 @@ The application is advisory only: it never creates purchase orders, dispatches s
 
 - Python 3.11 or later.
 - `pip`.
-- Optional: a Groq, OpenAI, or Anthropic API key for the Assistant tab. The complete deterministic planner works offline without one.
+- Optional: a Groq API key for the Assistant tab. The complete deterministic planner works offline without one.
 
 ## Quick start
 
@@ -43,7 +43,7 @@ Copy the example file, then set only one provider key:
 cp .env.example .env
 ```
 
-For Groq, set `LLM_PROVIDER=groq`, `GROQ_API_KEY=...`, and optionally `GROQ_MODEL=openai/gpt-oss-120b`. OpenAI uses `LLM_PROVIDER=openai` with `OPENAI_API_KEY=...`; Anthropic uses `LLM_PROVIDER=anthropic` with `ANTHROPIC_API_KEY=...`. You may override the model with the provider-specific setting or generic `LLM_MODEL`. Never commit `.env`.
+Set `GROQ_API_KEY=...` and optionally `GROQ_MODEL=openai/gpt-oss-120b`. You may also override the model with the generic `LLM_MODEL`. Never commit `.env`.
 
 The Assistant only invokes deterministic tools over the current fictional planning snapshot. Provider use may incur cost and transmits selected fictional records to that provider. Without valid configuration, the Assistant tab remains disabled while every other tab works.
 

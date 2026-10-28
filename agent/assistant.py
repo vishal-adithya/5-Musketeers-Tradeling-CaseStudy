@@ -29,36 +29,12 @@ When evidence is missing say unverified and do not substitute your own number. K
 
 
 def provider_config():
-    """Return the configured provider/model, or a safe offline explanation."""
+    """Return the configured Groq model, or a safe offline explanation."""
     load_dotenv()
-    provider = os.getenv('LLM_PROVIDER', '').strip().lower()
-    if not provider:
-        if os.getenv('GROQ_API_KEY', '').strip():
-            provider = 'groq'
-        elif os.getenv('OPENAI_API_KEY', '').strip():
-            provider = 'openai'
-        elif os.getenv('ANTHROPIC_API_KEY', '').strip():
-            provider = 'anthropic'
-        else:
-            return None, 'Assistant disabled: no GROQ_API_KEY, OPENAI_API_KEY, or ANTHROPIC_API_KEY. All forecasts, proposals, edits and human approvals work without an API key.'
-    if provider not in {'groq', 'openai', 'anthropic'}:
-        return None, 'Assistant disabled: LLM_PROVIDER must be groq, openai, or anthropic. Planning still works.'
-    key_names = {
-        'groq': 'GROQ_API_KEY',
-        'openai': 'OPENAI_API_KEY',
-        'anthropic': 'ANTHROPIC_API_KEY',
-    }
-    key_name = key_names[provider]
-    if not os.getenv(key_name, '').strip():
-        return None, f'Assistant disabled: no {key_name}. All forecasts, proposals, edits and human approvals work without an API key.'
-    defaults = {
-        'groq': 'openai/gpt-oss-120b',
-        'openai': 'gpt-4.1-mini',
-        'anthropic': 'claude-sonnet-4-5-20250929',
-    }
-    provider_model = os.getenv(f'{provider.upper()}_MODEL', '').strip()
-    model = provider_model or os.getenv('LLM_MODEL', '').strip() or defaults[provider]
-    return {'provider': provider, 'model': model}, ''
+    if not os.getenv('GROQ_API_KEY', '').strip():
+        return None, 'Assistant disabled: no GROQ_API_KEY. All forecasts, proposals, edits and human approvals work without an API key.'
+    model = os.getenv('GROQ_MODEL', '').strip() or os.getenv('LLM_MODEL', '').strip() or 'openai/gpt-oss-120b'
+    return {'provider': 'groq', 'model': model}, ''
 
 
 class PlannerAssistant:
@@ -72,15 +48,8 @@ class PlannerAssistant:
             if config is None:
                 self.agent = None
                 return
-            if config['provider'] == 'groq':
-                from langchain_groq import ChatGroq
-                model = ChatGroq(model=config['model'], temperature=0, max_retries=1)
-            elif config['provider'] == 'openai':
-                from langchain_openai import ChatOpenAI
-                model = ChatOpenAI(model=config['model'], temperature=0, timeout=40, max_retries=1)
-            else:
-                from langchain_anthropic import ChatAnthropic
-                model = ChatAnthropic(model=config['model'], temperature=0, timeout=40, max_retries=1)
+            from langchain_groq import ChatGroq
+            model = ChatGroq(model=config['model'], temperature=0, max_retries=1)
         self.agent = create_agent(model=model, tools=self.tools, system_prompt=SYSTEM_PROMPT)
 
     def _scope_guard(self, text):

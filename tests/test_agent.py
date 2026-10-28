@@ -27,8 +27,6 @@ def session(data, result):
 
 def test_no_api_key(monkeypatch, session):
     monkeypatch.delenv('GROQ_API_KEY', raising=False)
-    monkeypatch.delenv('OPENAI_API_KEY', raising=False)
-    monkeypatch.delenv('ANTHROPIC_API_KEY', raising=False)
     monkeypatch.delenv('LLM_PROVIDER', raising=False)
     monkeypatch.setattr('agent.assistant.load_dotenv', lambda: None)
     assistant = PlannerAssistant(session)
