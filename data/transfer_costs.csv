@@ -1,0 +1,121 @@
+row_id,sku,from_location,to_location,lead_days,variable_cost_aed,fixed_cost_aed,timestamp,source_system
+transfer_costs-00001,SKU01,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00002,SKU01,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00003,SKU01,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00004,SKU01,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00005,SKU01,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00006,SKU01,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00007,SKU02,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00008,SKU02,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00009,SKU02,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00010,SKU02,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00011,SKU02,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00012,SKU02,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00013,SKU03,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00014,SKU03,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00015,SKU03,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00016,SKU03,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00017,SKU03,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00018,SKU03,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00019,SKU04,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00020,SKU04,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00021,SKU04,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00022,SKU04,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00023,SKU04,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00024,SKU04,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00025,SKU05,Dubai,Abu Dhabi,2,0.7,180,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00026,SKU05,Dubai,Sharjah,2,0.7,180,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00027,SKU05,Abu Dhabi,Dubai,3,1.1,180,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00028,SKU05,Abu Dhabi,Sharjah,3,1.1,180,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00029,SKU05,Sharjah,Dubai,3,1.1,180,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00030,SKU05,Sharjah,Abu Dhabi,3,1.1,180,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00031,SKU06,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00032,SKU06,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00033,SKU06,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00034,SKU06,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00035,SKU06,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00036,SKU06,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00037,SKU07,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00038,SKU07,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00039,SKU07,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00040,SKU07,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00041,SKU07,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00042,SKU07,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00043,SKU08,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00044,SKU08,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00045,SKU08,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00046,SKU08,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00047,SKU08,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00048,SKU08,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00049,SKU09,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00050,SKU09,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00051,SKU09,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00052,SKU09,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00053,SKU09,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00054,SKU09,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00055,SKU10,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00056,SKU10,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00057,SKU10,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00058,SKU10,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00059,SKU10,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00060,SKU10,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00061,SKU11,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00062,SKU11,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00063,SKU11,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00064,SKU11,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00065,SKU11,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00066,SKU11,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00067,SKU12,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00068,SKU12,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00069,SKU12,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00070,SKU12,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00071,SKU12,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00072,SKU12,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00073,SKU13,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00074,SKU13,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00075,SKU13,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00076,SKU13,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00077,SKU13,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00078,SKU13,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00079,SKU14,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00080,SKU14,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00081,SKU14,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00082,SKU14,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00083,SKU14,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00084,SKU14,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00085,SKU15,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00086,SKU15,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00087,SKU15,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00088,SKU15,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00089,SKU15,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00090,SKU15,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00091,SKU16,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00092,SKU16,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00093,SKU16,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00094,SKU16,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00095,SKU16,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00096,SKU16,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00097,SKU17,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00098,SKU17,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00099,SKU17,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00100,SKU17,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00101,SKU17,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00102,SKU17,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00103,SKU18,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00104,SKU18,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00105,SKU18,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00106,SKU18,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00107,SKU18,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00108,SKU18,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00109,SKU19,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00110,SKU19,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00111,SKU19,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00112,SKU19,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00113,SKU19,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00114,SKU19,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00115,SKU20,Dubai,Abu Dhabi,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00116,SKU20,Dubai,Sharjah,2,0.7,8,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00117,SKU20,Abu Dhabi,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00118,SKU20,Abu Dhabi,Sharjah,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00119,SKU20,Sharjah,Dubai,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42
+transfer_costs-00120,SKU20,Sharjah,Abu Dhabi,3,1.1,15,2026-10-26T18:00:00Z,synthetic_seed_42

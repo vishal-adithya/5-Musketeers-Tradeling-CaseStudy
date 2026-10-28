@@ -1,0 +1,61 @@
+row_id,sku,location,available,reserved,timestamp,source_system
+inventory-00001,SKU01,Dubai,500,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00002,SKU01,Abu Dhabi,100,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00003,SKU01,Sharjah,300,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00004,SKU02,Dubai,89,6,2026-10-26T18:00:00Z,mock_erp
+inventory-00005,SKU02,Abu Dhabi,70,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00006,SKU02,Sharjah,94,3,2026-10-15T09:00:00Z,manual_sheet
+inventory-00007,SKU03,Dubai,85,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00008,SKU03,Abu Dhabi,50,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00009,SKU03,Sharjah,101,4,2026-10-26T18:00:00Z,mock_erp
+inventory-00010,SKU04,Dubai,89,5,2026-10-26T18:00:00Z,mock_erp
+inventory-00011,SKU04,Abu Dhabi,90,3,2026-10-26T18:00:00Z,mock_erp
+inventory-00012,SKU04,Sharjah,52,4,2026-10-26T18:00:00Z,mock_erp
+inventory-00013,SKU05,Dubai,220,4,2026-10-26T18:00:00Z,mock_erp
+inventory-00014,SKU05,Abu Dhabi,15,6,2026-10-26T18:00:00Z,mock_erp
+inventory-00015,SKU05,Sharjah,0,3,2026-10-26T18:00:00Z,mock_erp
+inventory-00016,SKU06,Dubai,70,9,2026-10-26T18:00:00Z,mock_erp
+inventory-00017,SKU06,Abu Dhabi,66,2,2026-10-26T18:00:00Z,mock_erp
+inventory-00018,SKU06,Sharjah,98,9,2026-10-26T18:00:00Z,mock_erp
+inventory-00019,SKU07,Dubai,82,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00020,SKU07,Abu Dhabi,92,3,2026-10-26T18:00:00Z,mock_erp
+inventory-00021,SKU07,Sharjah,70,6,2026-10-26T18:00:00Z,mock_erp
+inventory-00022,SKU08,Dubai,57,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00023,SKU08,Abu Dhabi,76,2,2026-10-26T18:00:00Z,mock_erp
+inventory-00024,SKU08,Sharjah,48,3,2026-10-26T18:00:00Z,mock_erp
+inventory-00025,SKU09,Dubai,92,5,2026-10-26T18:00:00Z,mock_erp
+inventory-00026,SKU09,Abu Dhabi,12,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00027,SKU09,Sharjah,81,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00028,SKU10,Dubai,88,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00029,SKU10,Abu Dhabi,65,9,2026-10-26T18:00:00Z,mock_erp
+inventory-00030,SKU10,Sharjah,101,6,2026-10-26T18:00:00Z,mock_erp
+inventory-00031,SKU11,Dubai,96,2,2026-10-26T18:00:00Z,mock_erp
+inventory-00032,SKU11,Abu Dhabi,89,9,2026-10-26T18:00:00Z,mock_erp
+inventory-00033,SKU11,Sharjah,55,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00034,SKU12,Dubai,70,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00035,SKU12,Abu Dhabi,46,5,2026-10-26T18:00:00Z,mock_erp
+inventory-00036,SKU12,Sharjah,52,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00037,SKU13,Dubai,83,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00038,SKU13,Abu Dhabi,87,4,2026-10-26T18:00:00Z,mock_erp
+inventory-00039,SKU13,Sharjah,10,2,2026-10-26T18:00:00Z,mock_erp
+inventory-00040,SKU14,Dubai,100,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00041,SKU14,Abu Dhabi,62,3,2026-10-26T18:00:00Z,mock_erp
+inventory-00042,SKU14,Sharjah,65,6,2026-10-26T18:00:00Z,mock_erp
+inventory-00043,SKU15,Dubai,71,2,2026-10-26T18:00:00Z,mock_erp
+inventory-00044,SKU15,Abu Dhabi,54,4,2026-10-26T18:00:00Z,mock_erp
+inventory-00045,SKU15,Sharjah,51,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00046,SKU16,Dubai,71,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00047,SKU16,Abu Dhabi,56,6,2026-10-26T18:00:00Z,mock_erp
+inventory-00048,SKU16,Sharjah,82,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00049,SKU17,Dubai,69,5,2026-10-26T18:00:00Z,mock_erp
+inventory-00050,SKU17,Abu Dhabi,92,9,2026-10-26T18:00:00Z,mock_erp
+inventory-00051,SKU17,Sharjah,84,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00052,SKU18,Dubai,61,9,2026-10-26T18:00:00Z,mock_erp
+inventory-00053,SKU18,Abu Dhabi,92,4,2026-10-26T18:00:00Z,mock_erp
+inventory-00054,SKU18,Sharjah,90,6,2026-10-26T18:00:00Z,mock_erp
+inventory-00055,SKU19,Dubai,66,3,2026-10-26T18:00:00Z,mock_erp
+inventory-00056,SKU19,Abu Dhabi,60,7,2026-10-26T18:00:00Z,mock_erp
+inventory-00057,SKU19,Sharjah,83,4,2026-10-26T18:00:00Z,mock_erp
+inventory-00058,SKU20,Dubai,51,8,2026-10-26T18:00:00Z,mock_erp
+inventory-00059,SKU20,Abu Dhabi,55,9,2026-10-26T18:00:00Z,mock_erp
+inventory-00060,SKU20,Sharjah,44,9,2026-10-26T18:00:00Z,mock_erp

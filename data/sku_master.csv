@@ -1,0 +1,21 @@
+row_id,sku,name,product_type,semiconductor_dependent,unit_margin_aed,unit_value_aed,timestamp,source_system
+sku_master-00001,SKU01,USB-C chargers model 1,USB-C chargers,True,18.0,40,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00002,SKU02,USB-C chargers model 2,USB-C chargers,True,18.0,40,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00003,SKU03,USB-C chargers model 3,USB-C chargers,True,18.0,40,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00004,SKU04,USB-C chargers model 4,USB-C chargers,True,18.0,40,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00005,SKU05,phone cables model 1,phone cables,False,0.1,8,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00006,SKU06,phone cables model 2,phone cables,False,5.0,8,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00007,SKU07,phone cables model 3,phone cables,False,5.0,8,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00008,SKU08,phone cables model 4,phone cables,False,5.0,8,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00009,SKU09,wireless mice model 1,wireless mice,True,12.0,25,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00010,SKU10,wireless mice model 2,wireless mice,True,12.0,25,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00011,SKU11,wireless mice model 3,wireless mice,True,12.0,25,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00012,SKU12,wireless mice model 4,wireless mice,True,12.0,25,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00013,SKU13,keyboards model 1,keyboards,True,20.0,50,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00014,SKU14,keyboards model 2,keyboards,True,20.0,50,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00015,SKU15,keyboards model 3,keyboards,True,20.0,50,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00016,SKU16,keyboards model 4,keyboards,True,20.0,50,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00017,SKU17,power banks model 1,power banks,True,16.0,35,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00018,SKU18,power banks model 2,power banks,True,16.0,35,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00019,SKU19,power banks model 3,power banks,True,16.0,35,2026-10-26T18:00:00Z,synthetic_seed_42
+sku_master-00020,SKU20,power banks model 4,power banks,True,16.0,35,2026-10-26T18:00:00Z,synthetic_seed_42

@@ -1,0 +1,6 @@
+row_id,sku,location,quantity,arrival_date,supplier_lead_days,shipping_route,timestamp,source_system
+inbound_orders-00001,SKU01,Abu Dhabi,40,2026-10-31,5,Jebel Ali-Abu Dhabi,2026-10-26T18:00:00Z,synthetic_seed_42
+inbound_orders-00002,SKU09,Abu Dhabi,100,2026-12-10,45,Jebel Ali-Abu Dhabi,2026-10-26T18:00:00Z,synthetic_seed_42
+inbound_orders-00003,SKU13,Sharjah,110,2026-12-07,42,Jebel Ali-Sharjah,2026-10-26T18:00:00Z,synthetic_seed_42
+inbound_orders-00004,SKU02,Dubai,50,2026-11-07,12,Jebel Ali-Dubai,2026-10-26T18:00:00Z,synthetic_seed_42
+inbound_orders-00005,SKU17,Sharjah,50,2026-11-10,15,Jebel Ali-Sharjah,2026-10-26T18:00:00Z,synthetic_seed_42
